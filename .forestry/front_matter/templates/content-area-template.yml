@@ -5,7 +5,7 @@ fields:
 - name: item-name
   type: text
   config:
-    required: false
+    required: true
   label: Item Name
   description: This is the name of the item, which will be used as the main heading.
 - name: apple_url
