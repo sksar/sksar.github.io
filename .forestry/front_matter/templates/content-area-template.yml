@@ -1,4 +1,22 @@
 ---
 label: Content-Area-Template
 hide_body: true
-fields: []
+fields:
+- name: item-name
+  type: text
+  config:
+    required: false
+  label: Item Name
+  description: This is the name of the item, which will be used as the main heading.
+- name: apple_url
+  type: text
+  config:
+    required: false
+  label: Apple URL
+  description: Apple App store URL
+- name: google_url
+  type: text
+  config:
+    required: false
+  label: Google URL
+  description: Google Play Store URL
